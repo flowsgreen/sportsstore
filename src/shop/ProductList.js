@@ -10,12 +10,10 @@ export class ProductList extends Component {
         <h4>
           {p.name}
           <span className="badge badge-pill badge-primary float-right">
-            {" "}
             ${p.price.toFixed(2)}
           </span>
         </h4>
         <div className="card-text bg-white p-1">
-          {" "}
           {p.description}
           <button
             className="btn btn-success btn-sm float-right"

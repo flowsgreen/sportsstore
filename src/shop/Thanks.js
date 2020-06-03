@@ -10,9 +10,7 @@ export class Thanks extends Component {
         <div className="m-2 text-center">
           <h2>Thanks!</h2>
           <p>Thanks for placing your order.</p>
-          <p>
-            Your order is #{this.props.order ? this.props.order.id : 0}
-          </p>{" "}
+          <p>Your order is #{this.props.order ? this.props.order.id : 0}</p>
           <p>We'll ship your goods as soon as possible.</p>
           <Link to="/shop" className="btn btn-primary">
             Return to Store

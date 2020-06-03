@@ -16,7 +16,7 @@ export class CategoryNavigation extends Component {
             >
               {cat}
             </ToggleLink>
-          ))}{" "}
+          ))}
       </React.Fragment>
     );
   }
